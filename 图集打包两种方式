@@ -1,0 +1,14 @@
+图集打包两种方式 
+
+	1.     Sprite Atlas
+	2.     Legacy Sprite Packer(旧)
+
+图集打包方式设置路径
+
+menu: Edit > Project Settings > Editor) and navigate to Sprite Packer > Mode 
+
+https://docs.unity3d.com/Manual/SpritePackerModes.html
+
+运行时加载图集API
+https://docs.unity3d.com/ScriptReference/U2D.SpriteAtlas.html
+
