@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout>
+<Node Type="Node" Name="root" >
+    <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+    <Property Name="ContentSize" Value="{750,1624}" />
+    <Node Type="Button" Name="autoBtn_1" >
+        <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+        <Property Name="ContentSize" Value="{214,68}" />
+        <Property Name="Position" Value="{319.5,928}" />
+        <Property Name="Image" Value="common/commonBtnBg_1" />
+        <Property Name="ImageType" Value="Sliced" />
+        <Node Type="Text" Name="autoLbl_1" >
+            <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+            <Property Name="ContentSize" Value="{58,28}" />
+            <Property Name="Position" Value="{319,928.5}" />
+            <Property Name="TextContent" Value="测试" />
+            <Property Name="TextColor" Value="FF00060A" />
+            <Property Name="FontSize" Value="30" />
+        </Node>
+    </Node>
+    <Node Type="Button" Name="autoBtn_2" >
+        <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+        <Property Name="ContentSize" Value="{124,90}" />
+        <Property Name="Position" Value="{320.5,750.5}" />
+        <Property Name="Image" Value="common/commonBtnBg_2" />
+        <Property Name="ImageType" Value="Simple" />
+        <Node Type="Text" Name="autoLbl_2" >
+            <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+            <Property Name="ContentSize" Value="{58,28}" />
+            <Property Name="Position" Value="{319,748.5}" />
+            <Property Name="TextContent" Value="测试" />
+            <Property Name="TextColor" Value="FF00060A" />
+            <Property Name="FontSize" Value="30" />
+        </Node>
+    </Node>
+</Node>
+</Layout>

@@ -1,0 +1,13 @@
+
+Sun Dec 06 2020 16:07:06 GMT+0800
+==== 创建文件夹：D:/PSD2UGUI/sample/_outputAssets/atlas/testImage
+==== 添加新资源: testImage_1     |目录: D:/PSD2UGUI/sample/_outputAssets/atlas/testImage
+==== 创建文件夹：D:/PSD2UGUI/sample/_outputAssets/texture/testImage
+==== 添加新资源: testImage_bg_1     |目录: D:/PSD2UGUI/sample/_outputAssets/texture/testImage
+==== 添加新资源: testImage_2     |目录: D:/PSD2UGUI/sample/_outputAssets/atlas/testImage
+==== 创建文件夹：D:/PSD2UGUI/sample/_outputAssets/artFonts/rectSlice
+==== 添加新资源: rsfont_1     |目录: D:/PSD2UGUI/sample/_outputAssets/artFonts/rectSlice
+==== 创建文件夹：D:/PSD2UGUI/sample/_outputAssets/texture/rectSlice
+==== 添加新资源: rs_1     |目录: D:/PSD2UGUI/sample/_outputAssets/texture/rectSlice
+==== 添加新资源: rs_2     |目录: D:/PSD2UGUI/sample/_outputAssets/texture/rectSlice
+------------------end

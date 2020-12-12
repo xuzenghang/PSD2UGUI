@@ -1,0 +1,5 @@
+
+Wed Dec 02 2020 17:34:18 GMT+0800
+==== 资源已存在: commonBtnBg_1|目录: D:/3DVerticalProject/vClient/Assets/Res/UI/NewUI/texture/ui_menu/common
+==== 添加新资源: commonBtnBg_2|目录: D:/3DVerticalProject/vClient/Assets/Res/UI/NewUI/texture/ui_menu/common
+------------------end

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout>
+<Node Type="Node" Name="root" >
+    <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+    <Property Name="ContentSize" Value="{750,1624}" />
+    <Node Type="Text" Name="autoLbl1" >
+        <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+        <Property Name="ContentSize" Value="{88,22}" />
+        <Property Name="Position" Value="{145,798.5}" />
+        <Property Name="TextContent" Value="lalala" />
+        <Property Name="TextColor" Value="FFF07029" />
+        <Property Name="FontSize" Value="30" />
+    </Node>
+    <Node Type="Node" Name="node_组1" >
+        <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+        <Property Name="Position" Value="{339,1386}" />
+        <Node Type="Text" Name="autoLbl2" >
+            <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+            <Property Name="ContentSize" Value="{72,16}" />
+            <Property Name="Position" Value="{339,1386}" />
+            <Property Name="TextContent" Value="LALALA" />
+            <Property Name="TextColor" Value="FF000000" />
+            <Property Name="FontSize" Value="24" />
+        </Node>
+    </Node>
+</Node>
+</Layout>

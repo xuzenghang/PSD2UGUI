@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout>
+<Node Type="Node" Name="root" >
+    <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+    <Property Name="ContentSize" Value="{750,1624}" />
+    <Node Type="Image" Name="common:bg@9s:2" >
+        <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+        <Property Name="ContentSize" Value="{750,1624}" />
+        <Property Name="Position" Value="{375,812}" />
+        <Property Name="Image" Value="common/bg" />
+        <Property Name="ImageType" Value="Sliced" />
+    </Node>
+    <Node Type="RawImage" Name="bg:bg2@raw" >
+        <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+        <Property Name="ContentSize" Value="{1086,930}" />
+        <Property Name="Position" Value="{423.5,1268}" />
+        <Property Name="Image" Value="bg/bg2" />
+        <Property Name="Opacity" Value="179" />
+    </Node>
+    <Node Type="Node" Name="node_lalala" >
+        <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+        <Property Name="Position" Value="{590.5,318.5}" />
+        <Node Type="Image" Name="common:commonBg_2@9s:20:20:30:30@new" >
+            <Property Name="AnchorPoint" Value="{0.5,0.5}" />
+            <Property Name="ContentSize" Value="{166,166}" />
+            <Property Name="Position" Value="{590.5,318.5}" />
+            <Property Name="Image" Value="common/commonBg_2" />
+            <Property Name="ImageType" Value="Sliced" />
+        </Node>
+    </Node>
+</Node>
+</Layout>
