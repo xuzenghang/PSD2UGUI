@@ -1,11 +1,10 @@
 
 
-
+#include "../SettingUtils.js"
 
 var spaceNum = 0
 var prefixStr = ""
 var spaceStr = "    "
-
 function addPrefixSpaceNum() {
     spaceNum += 1
     resetPrefixStr()
@@ -138,15 +137,16 @@ function formatTextContent(layer) {
 
 
 // ===========================================================
-
-function createExportOptions() {
-    var exportOptions = new ExportOptionsSaveForWeb
-    exportOptions.format = SaveDocumentType.PNG
-    exportOptions.transparency = true
-    exportOptions.quality = 100
-    exportOptions.PNG8 = false
-    return exportOptions
-}
+//移到settingUtlis
+// function createExportOptions() {
+//     var exportOptions = new ExportOptionsSaveForWeb
+//     exportOptions.format = SaveDocumentType.PNG
+//     exportOptions.transparency = true
+//     exportOptions.quality = 100
+//     exportOptions.PNG8 = false
+//     return exportOptions
+// }
+createExportOptions = settingUtils.createExportOptions
 
 function exportReferencePicture(doc, path) {
     var exportOptions = createExportOptions()

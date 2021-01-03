@@ -1,14 +1,20 @@
 
+
+#include "../SettingUtils.js"
+
+var settingCfg = settingUtils.getSettingOptions();
+
+
 // 图集所在路径
-ATLAS_PATH = "D:/PSD2UGUI/sample/_outputAssets/atlas"
+ATLAS_PATH = settingCfg.resPath +"/atlas"
 // Texture所在路径
-Texture_PATH = "D:/PSD2UGUI/sample/_outputAssets/texture"
+Texture_PATH = settingCfg.resPath +"/texture"
 // 艺术字图片所在路径
-ArtFont_PATH = "D:/PSD2UGUI/sample/_outputAssets/artFonts"
+ArtFont_PATH = settingCfg.resPath +"/artFonts"
 
 
 // 输出切图时是否输出日志
-OUTPUT_SLICE_IMAGE_LOG = false
+OUTPUT_SLICE_IMAGE_LOG = settingCfg.isOutputLog
 
 
 // *********************************************************

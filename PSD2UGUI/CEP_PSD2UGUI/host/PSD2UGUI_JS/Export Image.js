@@ -4,12 +4,8 @@
 #include "./ExportUtils.js"
 #include "./OutputConfig.js"
 
-
 // Main
 // ============================================================
-
-main()
-
 function main() {
     if (app.documents.length <= 0) {
         if (app.playbackDisplayDialogs != DialogModes.NO) {
@@ -25,11 +21,10 @@ function main() {
             return
     }
 
-    var oriRulerUnits = app.preferences.rulerUnits
+    var oriRulerUnits = app.preferences.rulerUnits;
     var oriTypeUnits = app.preferences.typeUnits;
     app.preferences.rulerUnits = Units.PIXELS;
     app.preferences.typeUnits = TypeUnits.PIXELS;
-
     initLogFile()
     initSaveOption()
     startTraverse()
@@ -49,6 +44,7 @@ function initLogFile() {
 }
 
 function initSaveOption() {
+
     docExportOptions = createExportOptions()
 }
 
@@ -169,7 +165,7 @@ function saveCutImage(layer, rectBounds) {
         folder.create()
     }
 
-    var file = new File(path + "/" + folderName + "/" + resName + ".png")
+    var file = new File(path + "/" + folderName + "/" + resName + docExportOptions.resSuffix);
     if (!file.exists || isOverride) {
         if (file.exists) {
             addLogItem("==== 覆盖旧资源: " + resName + "     |目录: " + folderPath)
@@ -286,3 +282,5 @@ function actLayerToNewDoc(layer) {
     desc143.putReference( charIDToTypeID('Usng'), ref74 );
     executeAction( charIDToTypeID('Mk  '), desc143, DialogModes.NO );
 }
+
+main()
